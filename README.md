@@ -1,4 +1,4 @@
-# learnyard-docker-masterclass
+# docker-masterclass
 This is a project to implement docker. Purely for education purpose.
 
 
