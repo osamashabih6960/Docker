@@ -1,0 +1,11 @@
+docker build -t mlops-docker-demo .
+
+docker run -p 5000:5000 mlops-docker-demo
+
+
+docker tag mlops-docker-demo youruser/mlops-docker-demo:latest
+
+docker push youruser/mlops-docker-demo:latest
+
+docker pull youruser/mlops-docker-demo:latest
+docker run -p 5000:5000 youruser/mlops-docker-demo:latest
